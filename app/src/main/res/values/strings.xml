@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LiveStremDemo</string>
+
+    <string name="topic_edit_hint">输入一个频道名</string>
+
+    <!-- Legal digits for channel names -->
+    <string name="legal_channel_name_characters" translatable="false">&#xA0;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&amp;()+,-:;&lt;=.>?@[]^_`{|}~</string>
+
+    <!-- Live Activity -->
+    <string name="fake_user_name" translatable="false">Shakespeare</string>
+
+    <!--dialog-->
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm">确定</string>
+
+    <string name="permission_hint">需要使用%s权限才能使用该功能，是否现在设置？</string>
+    <string name="goto_settting">去设置</string>
+
+    <string name="select_role_title">请选择你的身份</string>
+
+    <string name="select_role_broadcaster">我是主播</string>
+
+    <string name="start_broadcast_title">开始直播</string>
+
+    <string name="select_role_broadcaster_hint">以主播身份进入</string>
+    <string name="people_broadcaster_hint">真人直播</string>
+    <string name="screen_broadcaster_hint">屏幕直播</string>
+    <string name="select_role_audience">我是观众</string>
+    <string name="select_role_audience_hint">以观众身份进入</string>
+</resources>

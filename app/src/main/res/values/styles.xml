@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <!--设置dialog的背景-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!--edittext 下方图标颜色-->
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <style name="select_role_block">
+        <item name="android:background">@drawable/select_role_block_bg</item>
+        <item name="android:layout_width">342dp</item>
+        <item name="android:layout_height">128dp</item>
+        <item name="android:layout_marginTop">28dp</item>
+    </style>
+
+    <style name="select_role_block_icon">
+        <item name="android:layout_width">137dp</item>
+        <item name="android:layout_height">128dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="select_role_block_content">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+    </style>
+
+    <style name="select_role_block_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:background">@drawable/ic_arrow_right</item>
+    </style>
+
+    <style name="select_role_block_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:textColor">@color/gray_deep_dark</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="select_role_block_hint">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_light</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+</resources>

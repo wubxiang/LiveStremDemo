@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background">
+
+    <ImageView
+        android:id="@+id/setting_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:onClick="onSettingClicked"
+        android:src="@drawable/btn_setting" />
+
+    <RelativeLayout
+        android:id="@+id/middle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/main_logo"
+            android:layout_width="158dp"
+            android:layout_height="158dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="48dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/main_logo" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_logo"
+            android:layout_alignStart="@id/start_broadcast_button"
+            android:layout_alignLeft="@id/start_broadcast_button"
+            android:layout_alignEnd="@id/start_broadcast_button"
+            android:layout_alignRight="@id/start_broadcast_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="42dp"
+            android:backgroundTint="@color/blue_alpha"
+            android:digits="@string/legal_channel_name_characters"
+            android:gravity="center"
+            android:hint="@string/topic_edit_hint"
+            android:lines="1"
+            android:paddingBottom="16dp"
+            android:textColor="@color/blue_alpha"
+            android:textColorHint="@color/blue_alpha"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/start_broadcast_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@id/et_channel"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/start_broadcast_bg"
+            android:gravity="center"
+            android:paddingStart="45dp"
+            android:paddingLeft="45dp"
+            android:paddingEnd="45dp"
+            android:paddingRight="45dp"
+            android:text="@string/start_broadcast_title"
+            android:textAllCaps="false"
+            android:textColor="@color/start_broadcast_text_color"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
